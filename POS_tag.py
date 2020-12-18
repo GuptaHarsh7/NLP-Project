@@ -1,8 +1,8 @@
 #Reading Books - Book1 - Peter Pan, Book2 - Pride and Prejudice
-file = open(r"C:\Users\Lenovo\Desktop\POS_tagger\PPan.txt",encoding="utf8")
+file = open(r"PPan.txt",encoding="utf8")
 Book1 = file.read()
 
-file = open(r"C:\Users\Lenovo\Desktop\POS_tagger\Pride.txt",encoding="utf8")
+file = open(r"Pride.txt",encoding="utf8")
 Book2 = file.read()
 
 # DATA PREPROCESSING STEP ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
