@@ -582,6 +582,7 @@ Counter(labels2)
 #Performance Measures----------------->
 
 #BOOK1
+print("entity_predictions")
 entity_pred = []
 for X in B_2[6350:6750]:
     if X.ent_type_ == "GPE" or X.ent_type_ == "PERSON" or X.ent_type_ == "ORG"or X.ent_type_ == "FAC" or X.ent_type_ == "LOC":
